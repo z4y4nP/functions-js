@@ -4,5 +4,5 @@ function multiply(x,y){
         y == 7;
     }
     var answer = x * y;
+    document.getElementById("answer").innerHTML = answer;
 }
-document.getElementById("answer").innerHTML = answer;
